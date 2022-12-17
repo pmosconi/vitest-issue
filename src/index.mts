@@ -6,9 +6,4 @@ export class Sample {
   mySqrt(n: number) {
     return Math.sqrt(n);
   }
-
-  withFn(n: number) {
-    const fn = () => this.mySqrt(n);
-    return fn();
-  }
 }
